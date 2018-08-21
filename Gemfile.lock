@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    shards3d (0.1.0)
+      geo3d (~> 0.1.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    geo3d (0.1.7)
+    geometry (6.5)
+    minitest (5.11.3)
+    rake (10.5.0)
+    stl (0.2)
+      geometry
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  geo3d
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  shards3d!
+  stl
+
+BUNDLED WITH
+   1.16.4
